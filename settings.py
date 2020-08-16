@@ -32,7 +32,7 @@ inline = True
 )
 embed.add_field(
 name = 'If the head table gets 21',
-value = '```ring``` (only works in <#{}> and <#{})>.'.format(generalc,httext),
+value = '```ring``` (only works in <#{}> and <#{}>.)'.format(generalc,httext),
 inline = False
 )
 embed.add_field(

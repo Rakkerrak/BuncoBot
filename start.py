@@ -4,9 +4,8 @@ import random
 import discord
 
 import settings
-import token.py
+import tokenstorage
 
-token = settings.token
 
 client = discord.Client()
 
@@ -108,4 +107,4 @@ async def on_message(message):
 
 
 
-client.run(token)
+client.run(tokenstorage.token)
