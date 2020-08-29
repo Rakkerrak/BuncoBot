@@ -59,7 +59,7 @@ async def on_message(message):
             await message.channel.send("Ringing the bell!")
             for i in channels:
                 current = client.get_channel(i)
-                await current.send('Ring! Ring! Ring!  The head table got 21!')
+                await current.send('Ring! Ring! Ring!  The head table has rung the bell!')
 
 
     #member voice chat automoving by request of the member.
